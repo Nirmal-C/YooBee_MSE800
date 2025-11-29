@@ -34,7 +34,8 @@ class MathSeries:
 
 
 if __name__ == "__main__":
+    ms = MathSeries()
     n = 5
 
-    print("Factorial series:", MathSeries.factorial_series(n))
-    print("Fibonacci series:", MathSeries.fibonacci_series(n))
+    print("Factorial series:", ms.factorial_series(n))
+    print("Fibonacci series:", ms.fibonacci_series(n))
