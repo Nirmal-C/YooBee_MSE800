@@ -15,8 +15,7 @@ class FileOperations:
 data = FileOperations()
 
 if __name__ == "__main__":
-    while True:
-        try:
+
             file_name = input("File Name: ")
             
             file_object = data.open(file_name)  
@@ -25,7 +24,4 @@ if __name__ == "__main__":
             total_asterisks = data.count_asteriks(content)
             print(f"Total asterisks (*): {total_asterisks}")
 
-            break
-
-        except FileNotFoundError:
-            print("File not found.")
+            
