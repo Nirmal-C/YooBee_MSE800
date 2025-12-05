@@ -21,6 +21,7 @@ if __name__ == "__main__":
             file_object = data.open(file_name)  
             content = data.read(file_object)    
 
+            file_object.close()
             total_asterisks = data.count_asteriks(content)
             print(f"Total asterisks (*): {total_asterisks}")
 
