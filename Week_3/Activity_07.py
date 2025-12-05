@@ -20,8 +20,7 @@ if __name__ == "__main__":
             file_name = input("File Name: ")
             
             file_object = data.open(file_name)  
-            content = data.read(file_object)     
-            file_object.close()
+            content = data.read(file_object)    
 
             total_asterisks = data.count_asteriks(content)
             print(f"Total asterisks (*): {total_asterisks}")
