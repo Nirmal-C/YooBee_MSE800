@@ -1,4 +1,5 @@
 ## Scenario Description
+
 The clinic requires a system to manage patient registration, doctor registration, and appointment handling.  
 Different users have different responsibilities:
 
