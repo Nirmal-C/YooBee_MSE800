@@ -12,7 +12,6 @@ The system ensures that only authorized users can access specific features after
 
 ---
 
-
 ## Use Case Diagram 
 
 ![Use Case Diagram](Use_Case.png)
