@@ -31,7 +31,7 @@ The activity diagram illustrates the ingredient ordering process in a chain rest
 
 ## Activity Diagram
 
-![Activity Diagram](Activity_.png)
+![Activity Diagram](Activity.png)
 
 
 
